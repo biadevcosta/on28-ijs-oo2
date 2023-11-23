@@ -1,4 +1,4 @@
-## Exercício Clean Code: Refatoração da Classe `BankAccount`
+## Exercício SOLID: Refatoração da Classe `BankAccount`
 
 Neste exercício, busquei aplicar o princípio de responsabilidade única à classe `BankAccount`, que foi originalmente desenvolvida em aulas anteriores. Durante a análise, identifiquei que os métodos da classe estavam encarregados de várias responsabilidades, tornando o código menos claro e mais difícil de manter. Para abordar esse problema, decidi criar um arquivo separado, chamado `BankAccountValidators`, dedicado exclusivamente a funções de validação antes de realizar operações como saque, transferência, crédito e débito.
 
